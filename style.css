@@ -1,0 +1,58 @@
+body{
+    background-size: cover;
+}
+.heading{
+    width: 100%;
+    text-align: center;
+}
+.heading h3{
+    display: inline;
+    font-size: 35px;
+}
+.heading button{
+    float: right;
+    border: 1px solid white;
+    font-size: 15px;
+}
+.big_image{
+    width: 100%;
+}
+#start, #status{
+    font-size: 22px;
+}
+#source{
+    background-color: white;
+    line-height: 2;
+    margin: 0px;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+}
+.modal-dialog{
+    width: 90%;
+    background-color: grey;
+}
+.instuction_image{
+    width: 45%;
+    display: inline-block;
+}
+#modal_instruction{
+    font-size: 55px;
+    color: aliceblue;
+}
+.close{
+    width: 70px;
+    height: 70px;
+    font-size: 70px;
+    color: white;
+}
+.modal-body{
+color: aliceblue;
+font-size: 40px;
+text-align: left;
+}
+canvas{
+    border-radius:10px ;
+    box-shadow: 10px 10px 10px gray;
+}
